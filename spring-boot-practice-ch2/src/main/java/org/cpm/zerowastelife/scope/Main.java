@@ -14,7 +14,8 @@ public class Main {
 		
 		System.out.println("s1 is equal to s2? " + s1.equals(s2));
 		System.out.println("p1 is equal to p2? " + p1.equals(p2));
-
+		
+		context.close();
 	}
 
 }
