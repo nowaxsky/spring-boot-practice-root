@@ -5,6 +5,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class DemoAnnotationService {
 
-	@Action(name="註解式攔截的add操作")
+	@Action(name="annotation aop add")
 	public void add() {};
 }

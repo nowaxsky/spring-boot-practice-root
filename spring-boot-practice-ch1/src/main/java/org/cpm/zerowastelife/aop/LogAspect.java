@@ -22,13 +22,13 @@ public class LogAspect {
 		MethodSignature signature = (MethodSignature) joinPoint.getSignature();
 		Method method = signature.getMethod();
 		Action action = method.getAnnotation(Action.class);
-		System.out.println("註解式攔截 " + action.name());
+		System.out.println("annotation-" + action.name());
 	}
 	
 	@Before("execution(* org.cpm.zerowastelife.aop.DemoMethodService.* (..))")
 	public void before(JoinPoint joinPoint) {
 		MethodSignature signature = (MethodSignature) joinPoint.getSignature();
 		Method method = signature.getMethod();
-		System.out.println("方法規則式攔截 " + method.getName());
+		System.out.println("method-" + method.getName());
 	}
 }
