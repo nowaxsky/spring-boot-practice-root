@@ -59,5 +59,6 @@
 	    <module>spring-boot-practice-ch2</module>
 	    <module>spring-boot-practice-ch3</module>
 	    <module>spring-boot-practice-shared</module>
-  	</modules>
+    <module>spring-boot-practice-ch5</module>
+  </modules>
 </project>
