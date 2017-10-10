@@ -60,5 +60,8 @@
 	    <module>spring-boot-practice-ch3</module>
 	    <module>spring-boot-practice-shared</module>
     <module>spring-boot-practice-ch5</module>
+    <module>spring-boot-practice-ch6_1</module>
+    <module>spring-boot-practice-ch6_2</module>
+    <module>spring-boot-practice-ch6_3</module>
   </modules>
 </project>
